@@ -24,3 +24,26 @@ Security: Sessions can improve security by allowing users to authenticate once p
 Performance: Using sessions can help improve performance by reducing the need to repeatedly query a database or perform complex operations with each request. Data can be temporarily stored in the session and reused as needed.
 
 In summary, sessions are an essential part of creating a smooth and personalized user experience on the web by managing state, user identification, security, and performance across multiple interactions with a website or application.
+
+
+### Here's how to send requests
+
+```
+GET
+```
+To all user data **http://localhost:5000/get**
+
+```
+POST
+```
+To Login **http://localhost:5000/login** 
+## Note username and password required as body
+
+To Register **http://localhost:5000/register** 
+## Note username and password required as body
+
+To log out  **http://localhost:5000/logout**
+
+
+
+
