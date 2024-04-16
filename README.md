@@ -28,14 +28,10 @@ In summary, sessions are an essential part of creating a smooth and personalized
 
 ### Here's how to send requests
 
-```
 GET
-```
 To all user data **http://localhost:5000/get**
 
-```
 POST
-```
 To Login **http://localhost:5000/login** 
 ## Note username and password required as body
 
