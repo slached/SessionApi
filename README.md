@@ -9,10 +9,10 @@ npm run dev
 
 ### Here's how to send requests
 
-GET
+## GET
 To all user data **http://localhost:5000/get**
 
-POST
+## POST
 To Login **http://localhost:5000/login** 
 - Note username and password required as body
 
